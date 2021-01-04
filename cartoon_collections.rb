@@ -11,8 +11,8 @@ def summon_captain_planet(planeteer_calls)
   # Return a new array of the results
   
   planeteer_calls.map do |el|
-    el[0] = el[0].uppercase
-    el
+    el[0] = el[0].upcase
+    "#{el}!"
   end
 end
 
